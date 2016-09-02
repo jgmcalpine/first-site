@@ -1,0 +1,70 @@
+body {
+	height: 100em;
+}
+
+.header {
+	border: 1px solid black;
+	margin: -.5em -.5em 0 -.5em;
+	color: white;
+	background: #002080;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+.headings li {
+	display: inline;
+}
+
+#logo {
+	font-size: 3em;
+}
+
+.item {
+	margin-left: 1em;
+}
+
+.item:hover {
+	color: gold;
+	cursor: pointer;
+}
+
+.jumbotron {
+	display: inline;
+}
+
+#headBut {
+	float: right;
+	margin-top: .5em;
+	margin-right: 3.5em;
+	background-color: #cccccc;
+	text-decoration: none;
+	outline: none;
+	color: #002080;
+	box-shadow: 0 9px #999;
+	padding: 1em 1.5em;
+}
+
+#headBut:hover {
+	cursor: pointer;
+	background-color: white;
+}
+
+#headBut:active {
+	background-color: white;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.mainImage {
+	border: 1px solid black;
+	margin: 10em 40em 0 5em;
+}
+
+.tagLine {
+	border: 1px solid red;
+	width: 45%;
+	float: right;
+	margin-top: -25em;
+}
+
